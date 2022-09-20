@@ -7,7 +7,16 @@
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["school", "of", "net", "init", "nodejs"],
+  "keywords": [
+    "school",
+    "of",
+    "net",
+    "init",
+    "nodejs"
+  ],
   "author": "Whenes Oliveira",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "console-log-hello-world": "^1.0.3"
+  }
 }

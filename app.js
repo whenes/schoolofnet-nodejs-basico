@@ -1,6 +1,7 @@
 const http = require('http');
 const handle = require('./handle');
 const name = require('./name');
+require('console-log-hello-world');
 
 const events = require('events');
 const emiter = new events.EventEmitter();

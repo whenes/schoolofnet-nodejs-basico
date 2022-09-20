@@ -1,7 +1,18 @@
+const querystring = require('querystring');
+
 function handle(req, res) {
   res.writeHead(200, {
     'Content-Type': 'text/html'
   });
+  let body = '';
+  req.on('data', function(data) {
+    body += data.toString();
+  });
+  req.on('end', function() {
+    const decode = querystring.parse(body);
+    console.log(decode);
+  });
+
   res.write('<!DOCTYPE "HTML">');
   res.write('<html>');
   res.write('<head>');

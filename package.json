@@ -15,8 +15,5 @@
     "nodejs"
   ],
   "author": "Whenes Oliveira",
-  "license": "ISC",
-  "dependencies": {
-    "console-log-hello-world": "^1.0.3"
-  }
+  "license": "ISC"
 }
